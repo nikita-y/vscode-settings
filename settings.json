@@ -1,0 +1,25 @@
+{
+    "editor.find.seedSearchStringFromSelection": true,
+    "editor.fontFamily": "FiraCode-Retina",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 12,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.wordWrapColumn": 79,
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "git.autofetch": true,
+    "python.pythonPath": "/usr/local/bin/python3",
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.fontFamily": "FiraCode-Retina",
+    "terminal.integrated.fontSize": 12,
+    "workbench.colorTheme": "Ayu Mirage",
+    "workbench.fontAliasing": "auto",
+    "workbench.settings.editor": "json",
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.colorCustomizations": {
+        "editorIndentGuide.background": "#1f2430"
+    }
+}
