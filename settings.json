@@ -1,4 +1,5 @@
 {
+    "diffEditor.ignoreTrimWhitespace": true,
     "editor.find.seedSearchStringFromSelection": true,
     "editor.fontFamily": "FiraCode-Retina",
     "editor.fontLigatures": true,
@@ -15,11 +16,18 @@
     "terminal.external.osxExec": "iTerm.app",
     "terminal.integrated.fontFamily": "FiraCode-Retina",
     "terminal.integrated.fontSize": 12,
-    "workbench.colorTheme": "Ayu Mirage",
-    "workbench.fontAliasing": "auto",
-    "workbench.settings.editor": "json",
-    "workbench.statusBar.feedback.visible": false,
+    "workbench.activityBar.visible": true,
     "workbench.colorCustomizations": {
         "editorIndentGuide.background": "#1f2430"
-    }
+    },
+    "workbench.colorTheme": "Nord",
+    "workbench.fontAliasing": "auto",
+    "workbench.iconTheme": "ayu",
+    "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.useSplitJSON": true,
+    "workbench.statusBar.feedback.visible": false,
+    "zenMode.centerLayout": false,
+    "zenMode.fullScreen": false,
+    "zenMode.hideTabs": false
 }
