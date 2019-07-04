@@ -1,4 +1,6 @@
 {
+    "breadcrumbs.enabled": false,
+    "C_Cpp.updateChannel": "Insiders",
     "diffEditor.ignoreTrimWhitespace": true,
     "editor.find.seedSearchStringFromSelection": true,
     "editor.fontFamily": "FiraCode-Retina",
@@ -12,22 +14,24 @@
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "git.autofetch": true,
+    "python.formatting.provider": "black",
     "python.pythonPath": "/usr/local/bin/python3",
     "terminal.external.osxExec": "iTerm.app",
     "terminal.integrated.fontFamily": "FiraCode-Retina",
     "terminal.integrated.fontSize": 12,
+    "terminal.integrated.shell.osx": "/bin/zsh",
     "workbench.activityBar.visible": true,
     "workbench.colorCustomizations": {
-        "editorIndentGuide.background": "#1f2430"
+        "editorIndentGuide.background": "#ffffff00"
     },
-    "workbench.colorTheme": "Nord",
+    "workbench.colorTheme": "Monokai Pro",
     "workbench.fontAliasing": "auto",
-    "workbench.iconTheme": "ayu",
+    "workbench.iconTheme": "Monokai Pro Icons",
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.useSplitJSON": true,
-    "workbench.statusBar.feedback.visible": false,
+    "workbench.startupEditor": "newUntitledFile",
     "zenMode.centerLayout": false,
     "zenMode.fullScreen": false,
-    "zenMode.hideTabs": false
+    "zenMode.hideTabs": false,
 }
