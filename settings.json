@@ -1,5 +1,4 @@
 {
-    "breadcrumbs.enabled": false,
     "diffEditor.ignoreTrimWhitespace": true,
     "editor.find.seedSearchStringFromSelection": true,
     "editor.fontFamily": "FiraCode-Retina, Cascadia Code",
@@ -7,22 +6,43 @@
     "editor.fontSize": 12,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
+    "editor.formatOnType": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.renderWhitespace": "selection",
     "editor.suggestSelection": "first",
-    "editor.wordWrapColumn": 79,
+    "[python]": {
+        "editor.wordWrapColumn": 79,
+        "editor.rulers": [
+            79
+        ],
+    },
+    "beautify.language": {
+        "html": [
+            "htm",
+            "html",
+            "django-html"
+        ]
+    },
+    "files.autoSave": "onFocusChange",
     "files.eol": "\n",
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "git.autofetch": true,
+    "projectManager.showProjectNameInStatusBar": false,
+    "python.insidersChannel": "weekly",
+    "python.jediEnabled": false,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
     "terminal.external.osxExec": "iTerm.app",
     "terminal.integrated.fontFamily": "FiraCode-Retina, Cascadia Code",
     "terminal.integrated.fontSize": 12,
-    "terminal.integrated.shell.osx": "/bin/zsh",
     "terminal.integrated.rendererType": "experimentalWebgl",
-    "todo-tree.highlights.enabled": true,
+    "terminal.integrated.shell.osx": "/bin/zsh",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "workbench.activityBar.visible": true,
+    "workbench.colorCustomizations": {
+        "editorIndentGuide.background": "#ffffff00"
+    },
     "workbench.colorTheme": "Monokai Pro",
     "workbench.fontAliasing": "auto",
     "workbench.iconTheme": "Monokai Pro Icons",
@@ -33,7 +53,4 @@
     "zenMode.centerLayout": false,
     "zenMode.fullScreen": false,
     "zenMode.hideTabs": false,
-    "workbench.colorCustomizations": {
-        "editorIndentGuide.background": "#ffffff00"
-    }
 }
